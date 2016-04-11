@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Heads Up: Stuff to know on your way to new spot">
+    	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Heads Up</title>
+		
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/main.css">	
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>	
+		<!-- external font from Google fonts -->	
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+	</head>
+
+	
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">Local</h1>
+				<h3>The World is your neighborhood</h3>
+			</div>
+		</header>
+
+
+
+<!--		<section id="benefits">
+			<div class="container"> -->
+				<div class="wrapper">
+					<section class="touts">
+						<section class="tout">
+						
+							<h3 class="info">Plan your trips ahead</h3>
+						
+						<p>Look up an address and find what locals are saying about the surrounding area. You'll hear from people who lived around the area or experienced first hand what only locals know.</p>
+						</section>
+						<section class="tout">
+						
+							<h3 class="info">New to the area? No problem</h3>
+						
+						<p>Become an instant local simply by looking up an area and knowing whats around.</p>
+						</section>
+						<section class="tout">
+						
+							<h3 class="info">The World is our community</h3>
+						
+						<p>Share what you know about familiar areas. Tell the world what to look for. Provide information that will help millions.</p>
+						</section>
+					</section>
+				</div>
+
+<!--		
+				<h3>Why use Heads Up</h3>
+				<p>The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.</p>
+				<ul>
+					<li>Schedule meetings for you</li>
+					<li>Excel automation to complete your work for you</li>
+					<li>Responds to emails on your behalf</li>
+					<li>Does all your work for you with our revolutionary AI technology</li>
+				</ul>
+			</div> 
+		</section> -->
+
+		<!-- Map container -->
+		<div id="map-container"></div>	
+
+		<br>
+		<!-- Input for addresses -->
+		<input id="address-input" type="text" placeholder="Where are you going?"/>
+
+		<!-- Button for altering map -->
+		<input type="button" value="Locals Only" class="button green" id="map-button" onclick="showDiv()"></input> 
+
+		<div class="container" id="user-content" style="display:none">
+				<h3>Here's what people have to say about this area:</h3>
+
+		<div>
+				<img class="icons" src="https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"/>
+				<p class="users"><strong>Be Aware:</strong> There's a big scary dog around this corner. Be aware he's a mean one.</p>
+		</div>
+<br>
+
+		<div>
+				<img class="icons" src="http://gothere.sg/static/img/icons/api/markermed_pink_A.png"/>
+				<p class="users"><strong>Amy Lady:</strong> There's free parking here after 6pm. I've been going to GA and have never paid for parking cause of this street.</p>
+		</div>
+<br>
+
+			<div>
+				<img class="icons" src="http://gothere.sg/static/img/icons/api/markermed_blue_B.png"/>
+				<p class="users"><strong>Billy Blue:</strong> The bars here play live music Tuesday-Fridays. Some great jazz. Great date night.</p>
+			</div>
+<br>
+
+			<div>
+				<img class="icons" src="http://gothere.sg/static/img/icons/api/markermed_orange_O.png"/>
+				<p class="users"><strong>Othello Overlay:</strong> There have been 5 car thefts on this street past 10pm. I wouldn't recommend leaving your car here past 10.</p>
+			</div>
+<br>
+
+			<div>
+				<img class="icons" src="http://gothere.sg/static/img/icons/api/markermed_red_R.png"/>
+				<p class="users"><strong>Robbie Redlight:</strong> If you're going to the park that's nearby. The best parking is right here. It's the cheapest and the walk is safe and scenic. </p>
+			</div>
+<br>
+
+		</div>
+
+		<footer>
+			<h4 class="logo">Local</h4>
+
+			<div class="bottom">
+				<!-- <ul>
+					<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+					<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+				</ul> -->
+
+				<p class="copyright">Copyright 2016. Local.</p>
+		
+			</div>
+
+		</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+
+</html>

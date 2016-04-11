@@ -1,0 +1,277 @@
+
+*{
+	-moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+     width: 0 10px 0 10px;
+     box-sizing: border-box;
+}
+
+#map-container {
+	width: 100%;
+	height: 600px;
+
+}
+
+#address-input {
+	width: 500px;
+	display: block;
+	margin-bottom: 20px;
+}
+
+#map-button {
+	margin-bottom: 20px;
+}
+
+===========================
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: #f0efef;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header h1 {
+  /* font-size: 48px; 
+  color: #ffff66; */
+  margin: 400px 0 90px; 
+  text-align: center;
+  font-weight: 1200;
+  text-shadow: 2px 0 0 black;
+}
+
+header h3 {
+  color: #ffff66;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 2px 0 0 black;
+
+}
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+header {
+  height: 700px;
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  padding-top: 32px;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header .logo {
+  color: #ffff66;
+}
+header h2 {
+  font-size: 48px;
+  text-align: center;
+  color: #ffff66;
+  margin: 120px 0 90px;
+  font-weight: 600;
+}
+.button {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.green {
+  background: #00ff7f;
+  color: #033048;
+}
+.blue {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
+}
+#benefits {
+  padding: 100px 0 80px;
+}
+h3 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+#benefits p, #benefits ul {
+  width: 600px;
+}
+#benefits ul {
+  list-style: disc;
+  margin: 30px 0 0 80px;
+}
+#testimonial {
+  /*
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  */
+  padding: 70px 0 70px;
+  color: #ffff66;
+  background-color: white;
+  height: 400px;
+}
+
+
+/* street credz */
+#streetcredz {
+  padding: 100px 0 80px;
+  background: url(../images/streetcredz.jpg) no-repeat top center #131e27;
+  padding-top: 32px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+#streetcredz p, #streetcredz ul {
+  width: 600px;
+}
+#streetcredz ul {
+  list-style: disc;
+  margin: 30px 0 0 80px;
+}
+
+
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 580px;
+  margin: 0 auto;
+}
+blockquote span {
+  font-weight: 600;
+  display: block;
+  font-style: normal;
+}
+aside {
+  background: #00ff7f;
+  padding: 30px;
+  text-align: center
+}
+footer {
+  background: black;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 0 75px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.info {
+  text-align: center;
+}
+
+.wrapper {
+	max-width: 1280px;
+	margin: auto;
+}
+
+.touts {
+	background: #EEE;
+	background: white;
+	overflow: hidden;
+	padding: 2% 0;
+}
+.tout {
+	float: left;
+	width: 33%;
+	padding: 2% 3%;
+	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);
+}
+.tout:last-child {
+	box-shadow: none;
+}
+.tout .button {
+	background: #C6C6C6;
+}
+
+#map-container {
+  margin: 0 35px;
+  width: 95%;
+}
+
+#address-input {
+  margin: 10px auto;
+}
+
+
+
+.container h4 {
+  text-align: center;
+}
+
+.icons {
+  /*float: left; */
+  text-align: right;
+}
+
+.users {
+  /* float: right; */
+  text-align: left;
+}
+
+#user-content {
+  height: 625px;
+}
+
+strong {
+  font-size: 18px;
+}
+
+.bottom {
+  font-color: black;
+  margin: -50px 0;
+  text-align: center;
+}
